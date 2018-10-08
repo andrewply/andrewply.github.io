@@ -36,3 +36,32 @@ tags:
     ```
 # 安裝和設定Hexo
 1. Install node.js
+1. input `npm install -g hexo-cli` in terminal
+1. if permission denied, change npm's default directory manually
+    * `mkdir ~/.npm-global`
+    * `npm config set prefix '~/.npm-global'`
+    * `nano ~/.bash_profile`
+    * input `export PATH=~/.npm-global/bin:$PATH`
+    * restart terminal
+
+# Hexo 相關
+* create blog `hexo init blog`
+* create a test post `hexo new test_my_site`
+* generate blog `hexo g`
+* deploy blog in internal testing server `hexo s`
+* input `localhost:4000` in chrome for testing the blog
+
+# 部署Hexo 到GitHut
+1. install deployer package `npm install hexo-deployer-git --save`
+1. open `_config.yml` document
+1. find and edit
+    ```
+    deploy: 
+    type: git
+    repo: <username>.github.io.git
+    branch: master
+    ```
+1. in terminal
+    * `hexo clean`
+    * `hexo g`
+    * `hexo d`
