@@ -1,7 +1,8 @@
 ---
 title: 使用 Hexo ＋ Github 建立 Blog
 date: 2018-10-06 00:25:01
-tags:
+updated:
+tags: hexo
 ---
 
 # 緣

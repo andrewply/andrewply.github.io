@@ -1,7 +1,8 @@
 ---
 title: Block .DS_Store Files on NAS
 date: 2020-08-30 21:30:58
-tags:
+updated: 2020-08-30 21:30:58
+tags: synology
 ---
 
 # Intro

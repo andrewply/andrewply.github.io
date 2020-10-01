@@ -1,7 +1,8 @@
 ---
 title: Synology Resilio Sync SSL Cert
 date: 2020-01-30 21:05:12
-tags:
+updated:
+tags: synology, resilio, ssl
 ---
 # Intro
 Configure the Resilio Sync SSL Cert in Synology

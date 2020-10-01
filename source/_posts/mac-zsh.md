@@ -1,7 +1,8 @@
 ---
 title: Mac OS Catalina X ZSH Shell
 date: 2019-12-03 22:02:12
-tags:
+updated:
+tags: macos, zsh
 ---
 
 # Intro
